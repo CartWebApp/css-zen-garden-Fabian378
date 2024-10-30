@@ -1,17 +1,31 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
 
 .intro {
-    background-color: white;  
+    background-color: white;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
 }
 * {
     background: white;
+    border-radius: 10px;
 }
 
 .summary {
     background-color:white;
 } 
 
-.preamble {
-    background-color: beige;
-    border: 8px green;
+[role=article] {
+    background-color:lightblue;
+}
+
+[role=banner] {
+    background-color: white;
+}
+
+.preamble > h3 {
+    background-color: lightblue;
+}
+.preamble > p {
+    background-color: lightblue;
 }
