@@ -3,29 +3,97 @@
 .intro {
     background-color: white;
     margin: auto;
-    width: 60%;
+    width: 50%;
     padding: 10px;
 }
+
+
+
 * {
     background: white;
     border-radius: 10px;
 }
 
-.summary {
-    background-color:white;
-} 
 
-[role=article] {
-    background-color:lightblue;
-}
 
 [role=banner] {
     background-color: white;
 }
 
+
+
+.preamble {
+    background-color: lightblue;
+    justify-content: flex-end;
+}
 .preamble > h3 {
     background-color: lightblue;
+    text-decoration: underline;
 }
 .preamble > p {
     background-color: lightblue;
+} 
+
+
+
+.explanation {
+    background-color: #8BA083;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.explanation > h3 {
+    background-color: #8BA083;
+    text-decoration: underline;
+}
+.explanation > p {
+    background-color: #8BA083;
+}
+
+
+
+.participation {
+    background-color: #8BA083;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.participation > h3 {
+    background-color: #8BA083;
+    text-decoration: underline;
+}
+.participation > p {
+    background-color: #8BA083;
+}
+
+
+
+.benefits {
+    background-color: #8BA083;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.benefits > h3 {
+    background-color: #8BA083;
+    text-decoration: underline;
+}
+.benefits > p {
+    background-color: #8BA083;
+}
+
+
+
+.requirements {
+    background-color: #8BA083;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.requirements > h3 {
+    background-color: #8BA083;
+    text-decoration: underline;
+}
+.requirements > p {
+    background-color: #8BA083;
 }
