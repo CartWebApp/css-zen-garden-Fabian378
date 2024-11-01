@@ -1,37 +1,40 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
 
+
+
+
+
+* {
+    background: #8BA083;
+    border-radius: 10px;
+}
+
 .intro {
-    background-color: white;
+    background-color: #8BA083;
+}
+
+[role=banner] {
+    background-color: #8BA083;
     margin: auto;
-    width: 50%;
+    width: 30%;
     padding: 10px;
 }
 
 
 
-* {
-    background: white;
-    border-radius: 10px;
-}
-
-
-
-[role=banner] {
-    background-color: white;
-}
-
-
-
 .preamble {
-    background-color: lightblue;
+    background-color: #8BA083;
     justify-content: flex-end;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
 }
 .preamble > h3 {
-    background-color: lightblue;
+    background-color: #8BA083;
     text-decoration: underline;
 }
 .preamble > p {
-    background-color: lightblue;
+    background-color: #8BA083;
 } 
 
 
@@ -96,4 +99,37 @@
 }
 .requirements > p {
     background-color: #8BA083;
+}
+
+.select {
+    background-color: #8BA083;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.view-css {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.archives {
+    background-color: #8BA083;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.resources {
+    background-color: #8BA083;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.css-resources {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
 }
